@@ -1,9 +1,10 @@
 {
-  "name": "project_currencyconverter",
-  "version": "1.0.0",
+  "name": "dinmuhammad88_project_currencyconverter",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

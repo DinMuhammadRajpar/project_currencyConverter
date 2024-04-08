@@ -1,10 +1,5 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
-// let getCurrency = await inquirer.prompt(
-//   {
-//     name: "add",
-//     type
-// }
-// );
 let currency = {
     USD: 1,
     GBP: 0.91,
@@ -57,7 +52,7 @@ const currencyConverter = async () => {
     let convertedAmount = baseAmount * toCurrency;
     let toResponseCurrency = response.to;
     console.log(`${convertedAmount} ${toResponseCurrency}`);
-    console.log(convertedAmount);
+    // console.log(convertedAmount);
 };
 async function main() {
     const { action } = await inquirer.prompt([
